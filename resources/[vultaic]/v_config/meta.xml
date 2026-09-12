@@ -1,0 +1,13 @@
+<meta>
+	<info name="Vultaic configuration" author="Local setup" version="1.0.0" type="script"/>
+	<script src="config_server.lua" type="server"/>
+	<export function="getDatabaseConfig" type="server"/>
+	<settings>
+		<setting name="*dbHost" value="127.0.0.1" friendlyname="Database host"/>
+		<setting name="*dbPort" value="3306" friendlyname="Database port"/>
+		<setting name="*dbUser" value="vultaic" friendlyname="Database user"/>
+		<setting name="*dbPassword" value="vultaic_dev_password" friendlyname="Database password"/>
+		<setting name="*accountsDatabase" value="v_accounts" friendlyname="Accounts database"/>
+		<setting name="*toptimesDatabase" value="mta_toptimes" friendlyname="Toptimes database"/>
+	</settings>
+</meta>
